@@ -14,3 +14,7 @@
     ],
 ```
 3.在你的后台访问 http://yourdomain/migration
+
+演示地址： http://www.51siyuan.cn/admin/migration
+
+演示账号 `demo`  密码 `111111`
