@@ -3,5 +3,5 @@ namespace migration;
 
 class Module extends \yii\base\Module
 {
-    public $migrationPath = "@database/migrations";
+    public $migrationPath = "@console/migrations";
 }
