@@ -201,7 +201,7 @@ class DefaultController extends Controller
             foreach ($data as $row) {
                 $out .= '[';
                 foreach ($row as $field) {
-                    if ($field == null) {
+                    if ($field === null) {
                         $out .= "null,";
                     } else {
                         $out .= "'" . addcslashes($field, "'") . "',";
