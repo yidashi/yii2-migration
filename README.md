@@ -18,3 +18,22 @@
 演示地址： http://www.51siyuan.cn/admin/migration
 
 演示账号 `demo`  密码 `111111`
+
+
+
+命令行使用方法
+
+1.在`console/config/main.php` 添加如下配置
+```
+'controllerMap' => [
+        'migrate' => [
+            'class' => 'backend\modules\migration\console\MigrateController',
+            'useTablePrefix' => true,
+            'migrationPath' => '@console/migrations',
+        ],
+    ],
+```
+
+2.`php yii migrate/dump`
+
+o了
