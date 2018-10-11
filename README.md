@@ -3,7 +3,8 @@
 1.下载模块源码解压缩到 `backend/modules/`
 
 2.在 `backend/config/main.php` 添加如下配置
-````
+
+```
 'modules' => [
         'migration' => [
             'class' => 'migration\Module',
@@ -13,6 +14,7 @@
         '@migration' => '@backend/modules/migration',
     ],
 ```
+
 3.在你的后台访问 http://yourdomain/migration
 
 演示地址： http://www.51siyuan.cn/admin/migration
